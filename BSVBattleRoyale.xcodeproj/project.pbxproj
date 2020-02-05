@@ -38,6 +38,8 @@
 		DCCE53AA23E9F8470098464D /* NIOFoundationCompat in Frameworks */ = {isa = PBXBuildFile; productRef = DCCE53A923E9F8470098464D /* NIOFoundationCompat */; };
 		DCCE53AC23E9F8470098464D /* NIOWebSocket in Frameworks */ = {isa = PBXBuildFile; productRef = DCCE53AB23E9F8470098464D /* NIOWebSocket */; };
 		FCED98CE23EA598A00E321FC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCED98CD23EA598A00E321FC /* LoginViewController.swift */; };
+		FCED98D023EA7FCF00E321FC /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCED98CF23EA7FCF00E321FC /* LoginController.swift */; };
+		FCED98D223EA828D00E321FC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCED98D123EA828D00E321FC /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +91,8 @@
 		DCCE539223E9F4630098464D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCCE539E23E9F4FE0098464D /* WebSocketConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocketConnection.swift; sourceTree = "<group>"; };
 		FCED98CD23EA598A00E321FC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FCED98CF23EA7FCF00E321FC /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		FCED98D123EA828D00E321FC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -224,6 +228,7 @@
 			children = (
 				33FB437E23EA35D000D1DDC8 /* MapController.swift */,
 				33FB438023EA362100D1DDC8 /* RoomCollection.swift */,
+				FCED98CF23EA7FCF00E321FC /* LoginController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -232,6 +237,7 @@
 			isa = PBXGroup;
 			children = (
 				3366ECB523EA2BB400953583 /* Player.swift */,
+				FCED98D123EA828D00E321FC /* User.swift */,
 				3366ECBC23EA2CDC00953583 /* Room.swift */,
 				3366ECB923EA2BDC00953583 /* RoomScene.swift */,
 			);
@@ -405,10 +411,12 @@
 				33FB437623EA2F7700D1DDC8 /* DoorSprite.swift in Sources */,
 				3366ECB623EA2BB400953583 /* Player.swift in Sources */,
 				3366ECB223EA265C00953583 /* LiveConnectionController.swift in Sources */,
+				FCED98D023EA7FCF00E321FC /* LoginController.swift in Sources */,
 				FCED98CE23EA598A00E321FC /* LoginViewController.swift in Sources */,
 				DCCE539F23E9F4FE0098464D /* WebSocketConnection.swift in Sources */,
 				33FB437423EA2F2F00D1DDC8 /* RoomSprite.swift in Sources */,
 				33D27F7E23EA3D1D00DE0E4C /* SpriteKit+Helpers.swift in Sources */,
+				FCED98D223EA828D00E321FC /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
