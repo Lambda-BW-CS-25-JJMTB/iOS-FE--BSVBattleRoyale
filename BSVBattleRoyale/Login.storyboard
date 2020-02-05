@@ -84,7 +84,6 @@
                         <outlet property="registerLoginButton" destination="Ngl-SE-2HJ" id="2zP-1F-27U"/>
                         <outlet property="segmentedControl" destination="xNO-Lu-g4c" id="kYp-cS-MKl"/>
                         <outlet property="usernameTextField" destination="55v-Op-Hd3" id="4Ea-tL-87I"/>
-                        <segue destination="dBP-NK-Buu" kind="show" identifier="ToGameWindow" id="gGu-cD-9MU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sJa-2b-htG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -99,7 +98,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="S2U-0t-9fh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-68" y="-35"/>
+            <point key="canvasLocation" x="-238" y="-29"/>
         </scene>
     </scenes>
     <resources>

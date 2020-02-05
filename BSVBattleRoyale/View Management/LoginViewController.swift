@@ -26,19 +26,21 @@ class LoginViewController: UIViewController {
         switch Int.random(in: 0...10) {
         case 3:
             backgroundStuff.image = UIImage(named: "CowboyBlonde")
+            print("cb")
         case 5:
             backgroundStuff.image = UIImage(named: "CowboyRed")
+            print("cr")
         case 7:
             backgroundStuff.image = UIImage(named: "DallasCowboys")
+            print("DC")
         case 9:
             backgroundStuff.image = UIImage(named: "SchamelessPlug")
+            print("shamelessly")
             
         default:
             backgroundStuff.image = UIImage(named: "background")
+            print("background")
         }
-        
-        
-        
     }
     
     
