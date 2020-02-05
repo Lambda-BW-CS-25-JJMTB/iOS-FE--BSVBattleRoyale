@@ -37,6 +37,7 @@
 		DCCE53A823E9F8470098464D /* NIOConcurrencyHelpers in Frameworks */ = {isa = PBXBuildFile; productRef = DCCE53A723E9F8470098464D /* NIOConcurrencyHelpers */; };
 		DCCE53AA23E9F8470098464D /* NIOFoundationCompat in Frameworks */ = {isa = PBXBuildFile; productRef = DCCE53A923E9F8470098464D /* NIOFoundationCompat */; };
 		DCCE53AC23E9F8470098464D /* NIOWebSocket in Frameworks */ = {isa = PBXBuildFile; productRef = DCCE53AB23E9F8470098464D /* NIOWebSocket */; };
+		FCED98CE23EA598A00E321FC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCED98CD23EA598A00E321FC /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +88,7 @@
 		DCCE539023E9F4630098464D /* BSVBattleRoyaleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSVBattleRoyaleUITests.swift; sourceTree = "<group>"; };
 		DCCE539223E9F4630098464D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCCE539E23E9F4FE0098464D /* WebSocketConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocketConnection.swift; sourceTree = "<group>"; };
+		FCED98CD23EA598A00E321FC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,6 +214,7 @@
 			isa = PBXGroup;
 			children = (
 				DCCE537223E9F4610098464D /* ViewController.swift */,
+				FCED98CD23EA598A00E321FC /* LoginViewController.swift */,
 			);
 			path = "View Management";
 			sourceTree = "<group>";
@@ -402,6 +405,7 @@
 				33FB437623EA2F7700D1DDC8 /* DoorSprite.swift in Sources */,
 				3366ECB623EA2BB400953583 /* Player.swift in Sources */,
 				3366ECB223EA265C00953583 /* LiveConnectionController.swift in Sources */,
+				FCED98CE23EA598A00E321FC /* LoginViewController.swift in Sources */,
 				DCCE539F23E9F4FE0098464D /* WebSocketConnection.swift in Sources */,
 				33FB437423EA2F2F00D1DDC8 /* RoomSprite.swift in Sources */,
 				33D27F7E23EA3D1D00DE0E4C /* SpriteKit+Helpers.swift in Sources */,
