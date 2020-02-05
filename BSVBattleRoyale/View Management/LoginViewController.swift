@@ -57,7 +57,7 @@ class LoginViewController: UIViewController {
                     
                     print("not using signUp right now")
                     
-                    loginController?.signUp(with: username, password: password, completion: { (error) in
+                    loginController.register(with: username, password: password, completion: { (error) in
         
                         if let error = error {
                             NSLog("Error signing up: \(error)")
@@ -67,9 +67,9 @@ class LoginViewController: UIViewController {
                                 let alertAction = UIAlertAction(title: "OK", style: .default, handler: nil)
                                 alertController.addAction(alertAction)
                                 self.present(alertController, animated: true, completion: {
-                                    self.signInType = .logIn
-                                    self.loginTypeSegmentedControl.selectedSegmentIndex = 1
-                                    self.signInButton.setTitle("Sign In", for: .normal)
+                                    self.signInType = .login
+                                    self.segmentedControl.selectedSegmentIndex = 1
+                                    self.registerLoginButton.setTitle("Sign In", for: .normal)
                                 })
                             }
                         }
@@ -77,12 +77,12 @@ class LoginViewController: UIViewController {
                     
                 case .login:
                     
-                    LoginController.automatedLoginSuccess()
+                    loginController.automatedLoginSuccess()
                     
 
                         navigationController?.popViewController(animated: true)
                     
-        //            jokeController.logIn(with: username, password: password, completion: { (error) in
+        //            loginController.login(with: username, password: password, completion: { (error) in
         //                if let error = error {
         //                    NSLog("Error logging in: \(error)")
         //                } else {
